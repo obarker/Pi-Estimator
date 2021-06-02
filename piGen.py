@@ -63,6 +63,6 @@ def trialCounter(a):
         trialCounter(a)     
 
 numSamples = int(input("Number of Samples?:"))
-rngUpper = int(input("Random Upper Bound?:"))
+rngUpper = int(input("Random Upper Bound? (Radius size):"))
 
 trialCounter(bPi)
