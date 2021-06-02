@@ -28,12 +28,12 @@ def piCalc(a,b,c,d,e,f):
         if midPoint < b:
 
             insideCircle = np.append(insideCircle, midPoint)
-            e = np.append(e, 'r')
+            e = np.append(e, 'Inside the Circle')
 
         else:
 
             outsideCircle = np.append(outsideCircle, midPoint)
-            e = np.append(e, 'c')
+            e = np.append(e, 'Outside the Circle')
 
     insideCireclePct = (len(insideCircle)/(len(insideCircle)+len(outsideCircle)))
     cPi = (insideCireclePct/(1**2))*4
