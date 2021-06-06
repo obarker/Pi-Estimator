@@ -46,7 +46,7 @@ def piCalc(a,b,c,d,e,f):
             plt.plot(group.x, group.y, marker='o', linestyle='', markersize=12, label=name)
 
         plt.legend()
-        plt.show()    
+        plt.show()      
 
     return cPi
 
